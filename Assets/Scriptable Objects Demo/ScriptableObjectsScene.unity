@@ -224,8 +224,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b2e1267533935c4196bd28ca2c6e1a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: cc2a37e4c00113a4293aeb9a059d0656, type: 2}
   itemNameText: {fileID: 1256838592}
-  itemIcon: {fileID: 1698479812}
+  iconImage: {fileID: 1698479812}
 --- !u!4 &108885159
 Transform:
   m_ObjectHideFlags: 0

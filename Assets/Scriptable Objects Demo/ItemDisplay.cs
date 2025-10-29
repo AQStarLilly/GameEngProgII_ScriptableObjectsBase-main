@@ -4,13 +4,20 @@ using TMPro;
 
 public class ItemDisplay : MonoBehaviour
 {
-    public TextMeshProUGUI itemNameText;
-    public Image itemIcon;
+    public ItemData itemData;
 
-    public void DisplayItem(string name, Sprite icon)
+    public TextMeshProUGUI itemNameText;
+    public Image iconImage;
+
+    public void DisplayItem(string itemName, Sprite itemIcon)
     {
-        itemNameText.text = name;
-        itemIcon.sprite = icon;
-        //fdsfesdfds
+        if(itemNameText != null)
+        {
+            itemNameText.text = itemData.itemName;
+        }
+        if(iconImage != null)
+        {
+            iconImage.sprite = itemData.itemIcon;
+        }
     }
 }
